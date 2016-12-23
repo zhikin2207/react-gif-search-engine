@@ -7,7 +7,7 @@ import GifModal from '../components/GifModal';
 import '../styles/app.css';
 
 class Favorites extends React.Component {
-  componentWillMount() {
+  componentDidMount() {
     this.props.actions.fetchFavoritedGifs();
   }
 
